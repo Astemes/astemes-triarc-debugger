@@ -15,16 +15,37 @@
 			<Item Name="Debug Process.lvclass" Type="LVClass" URL="../Process/Debug Process.lvclass"/>
 		</Item>
 		<Item Name="Debug Data Receiver" Type="Folder">
-			<Item Name="Debug Data Event.lvclass" Type="LVClass" URL="../Debug Data Event/Debug Data Event.lvclass"/>
+			<Item Name="Debug Data.lvclass" Type="LVClass" URL="../Debug Data/Debug Data.lvclass"/>
+			<Item Name="Debug Data Listener.lvclass" Type="LVClass" URL="../Debug Data Event/Debug Data Listener.lvclass"/>
 			<Item Name="Debug Message Receiver.lvclass" Type="LVClass" URL="../Debug Message Receiver/Debug Message Receiver.lvclass"/>
-			<Item Name="Mock Debug Message Receiver.lvclass" Type="LVClass" URL="../Mock Debug Data Receiver/Mock Debug Message Receiver.lvclass"/>
 		</Item>
-		<Item Name="Data Filter" Type="Folder"/>
+		<Item Name="Main" Type="Folder">
+			<Item Name="Debugger.lvclass" Type="LVClass" URL="../Debugger/Debugger.lvclass"/>
+			<Item Name="Debug Log.lvclass" Type="LVClass" URL="../Debug Log/Debug Log.lvclass"/>
+		</Item>
+		<Item Name="Filter" Type="Folder">
+			<Item Name="Filter.lvclass" Type="LVClass" URL="../Filter/Filter.lvclass"/>
+			<Item Name="Filter by Process.lvclass" Type="LVClass" URL="../Filter by Process/Filter by Process.lvclass"/>
+			<Item Name="Filter by Message.lvclass" Type="LVClass" URL="../Filter by Message/Filter by Message.lvclass"/>
+		</Item>
+		<Item Name="View Models" Type="Folder">
+			<Item Name="List Box Event Log View Model.lvclass" Type="LVClass" URL="../List Box View Model/List Box Event Log View Model.lvclass"/>
+			<Item Name="List Seen Messages View Model.lvclass" Type="LVClass" URL="../List Seen Messages View Model/List Seen Messages View Model.lvclass"/>
+			<Item Name="List Seen Processes View Model.lvclass" Type="LVClass" URL="../List Seen Processes View Model/List Seen Processes View Model.lvclass"/>
+		</Item>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Debug Log Test.lvclass" Type="LVClass" URL="../../test/Debug Log Test/Debug Log Test.lvclass"/>
+		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="LUnit.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit.lvlib"/>
+				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
+				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
