@@ -18,10 +18,12 @@
 			<Item Name="Debug Data.lvclass" Type="LVClass" URL="../Debug Data/Debug Data.lvclass"/>
 			<Item Name="Debug Data Listener.lvclass" Type="LVClass" URL="../Debug Data Event/Debug Data Listener.lvclass"/>
 			<Item Name="Debug Message Receiver.lvclass" Type="LVClass" URL="../Debug Message Receiver/Debug Message Receiver.lvclass"/>
+			<Item Name="Mock Data Listener.lvclass" Type="LVClass" URL="../Mock Data Listener/Mock Data Listener.lvclass"/>
 		</Item>
 		<Item Name="Main" Type="Folder">
 			<Item Name="Debugger.lvclass" Type="LVClass" URL="../Debugger/Debugger.lvclass"/>
 			<Item Name="Debug Log.lvclass" Type="LVClass" URL="../Debug Log/Debug Log.lvclass"/>
+			<Item Name="Main.lvclass" Type="LVClass" URL="../Main/Main.lvclass"/>
 		</Item>
 		<Item Name="Filter" Type="Folder">
 			<Item Name="Filter.lvclass" Type="LVClass" URL="../Filter/Filter.lvclass"/>
@@ -31,10 +33,11 @@
 		</Item>
 		<Item Name="View Models" Type="Folder">
 			<Item Name="List Box Event Log View Model.lvclass" Type="LVClass" URL="../List Box View Model/List Box Event Log View Model.lvclass"/>
-			<Item Name="List Seen Messages View Model.lvclass" Type="LVClass" URL="../List Seen Messages View Model/List Seen Messages View Model.lvclass"/>
-			<Item Name="List Seen Processes View Model.lvclass" Type="LVClass" URL="../List Seen Processes View Model/List Seen Processes View Model.lvclass"/>
+			<Item Name="List Messages View Model.lvclass" Type="LVClass" URL="../List Seen Messages View Model/List Messages View Model.lvclass"/>
+			<Item Name="List Processes View Model.lvclass" Type="LVClass" URL="../List Seen Processes View Model/List Processes View Model.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Debug Message Receiver Test.lvclass" Type="LVClass" URL="../../test/Debug Message Receiver Test/Debug Message Receiver Test.lvclass"/>
 			<Item Name="Debug Log Test.lvclass" Type="LVClass" URL="../../test/Debug Log Test/Debug Log Test.lvclass"/>
 		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
