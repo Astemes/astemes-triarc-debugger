@@ -27,6 +27,7 @@
 			<Item Name="Filter.lvclass" Type="LVClass" URL="../Filter/Filter.lvclass"/>
 			<Item Name="Filter by Process.lvclass" Type="LVClass" URL="../Filter by Process/Filter by Process.lvclass"/>
 			<Item Name="Filter by Message.lvclass" Type="LVClass" URL="../Filter by Message/Filter by Message.lvclass"/>
+			<Item Name="Mock Filter.lvclass" Type="LVClass" URL="../Mock Filter/Mock Filter.lvclass"/>
 		</Item>
 		<Item Name="View Models" Type="Folder">
 			<Item Name="List Box Event Log View Model.lvclass" Type="LVClass" URL="../List Box View Model/List Box Event Log View Model.lvclass"/>
