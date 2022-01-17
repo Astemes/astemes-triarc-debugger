@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Framework" Type="Folder">
 			<Item Name="Debug Process.lvclass" Type="LVClass" URL="../Process/Debug Process.lvclass"/>
+			<Item Name="Debug View.lvclass" Type="LVClass" URL="../Debug View/Debug View.lvclass"/>
 		</Item>
 		<Item Name="Debug Data Receiver" Type="Folder">
 			<Item Name="Debug Data.lvclass" Type="LVClass" URL="../Debug Data/Debug Data.lvclass"/>
@@ -35,8 +36,13 @@
 			<Item Name="List Box Event Log View Model.lvclass" Type="LVClass" URL="../List Box View Model/List Box Event Log View Model.lvclass"/>
 			<Item Name="List Messages View Model.lvclass" Type="LVClass" URL="../List Seen Messages View Model/List Messages View Model.lvclass"/>
 			<Item Name="List Processes View Model.lvclass" Type="LVClass" URL="../List Seen Processes View Model/List Processes View Model.lvclass"/>
+			<Item Name="List Box View Model.lvclass" Type="LVClass" URL="../List Box View Model_/List Box View Model.lvclass"/>
+		</Item>
+		<Item Name="Views" Type="Folder">
+			<Item Name="List Box View.lvclass" Type="LVClass" URL="../List View/List Box View.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Debugger Test.lvclass" Type="LVClass" URL="../../test/Debugger Test/Debugger Test.lvclass"/>
 			<Item Name="Debug Message Receiver Test.lvclass" Type="LVClass" URL="../../test/Debug Message Receiver Test/Debug Message Receiver Test.lvclass"/>
 			<Item Name="Debug Log Test.lvclass" Type="LVClass" URL="../../test/Debug Log Test/Debug Log Test.lvclass"/>
 		</Item>
