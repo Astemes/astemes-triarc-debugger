@@ -36,13 +36,16 @@
 			<Item Name="Mock Filter.lvclass" Type="LVClass" URL="../Mock Filter/Mock Filter.lvclass"/>
 		</Item>
 		<Item Name="View Models" Type="Folder">
-			<Item Name="List Box Event Log View Model.lvclass" Type="LVClass" URL="../List Box View Model/List Box Event Log View Model.lvclass"/>
+			<Item Name="Variant View Model.lvclass" Type="LVClass" URL="../Variant View Model/Variant View Model.lvclass"/>
 			<Item Name="List Messages View Model.lvclass" Type="LVClass" URL="../List Seen Messages View Model/List Messages View Model.lvclass"/>
 			<Item Name="List Processes View Model.lvclass" Type="LVClass" URL="../List Seen Processes View Model/List Processes View Model.lvclass"/>
 			<Item Name="List Box View Model.lvclass" Type="LVClass" URL="../List Box View Model_/List Box View Model.lvclass"/>
+			<Item Name="Multicolumn List Box View Model.lvclass" Type="LVClass" URL="../Multicolumn List Box View Model/Multicolumn List Box View Model.lvclass"/>
 		</Item>
 		<Item Name="Views" Type="Folder">
+			<Item Name="Variant View.lvclass" Type="LVClass" URL="../Variant View/Variant View.lvclass"/>
 			<Item Name="List Box View.lvclass" Type="LVClass" URL="../List View/List Box View.lvclass"/>
+			<Item Name="Multicolumn List Box View.lvclass" Type="LVClass" URL="../Multicolumn List Box View/Multicolumn List Box View.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Debugger Test.lvclass" Type="LVClass" URL="../../test/Debugger Test/Debugger Test.lvclass"/>
