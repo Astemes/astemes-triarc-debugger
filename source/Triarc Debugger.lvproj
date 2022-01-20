@@ -34,6 +34,8 @@
 			<Item Name="Filter by Process.lvclass" Type="LVClass" URL="../Filter by Process/Filter by Process.lvclass"/>
 			<Item Name="Filter by Message.lvclass" Type="LVClass" URL="../Filter by Message/Filter by Message.lvclass"/>
 			<Item Name="Mock Filter.lvclass" Type="LVClass" URL="../Mock Filter/Mock Filter.lvclass"/>
+			<Item Name="Filter by Is Send.lvclass" Type="LVClass" URL="../Filter by Is Sender/Filter by Is Send.lvclass"/>
+			<Item Name="Filter by Is Receive.lvclass" Type="LVClass" URL="../Filter by Is Receive/Filter by Is Receive.lvclass"/>
 		</Item>
 		<Item Name="View Models" Type="Folder">
 			<Item Name="Variant View Model.lvclass" Type="LVClass" URL="../Variant View Model/Variant View Model.lvclass"/>
