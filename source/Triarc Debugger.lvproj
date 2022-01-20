@@ -43,6 +43,7 @@
 			<Item Name="Multicolumn List Box View Model.lvclass" Type="LVClass" URL="../Multicolumn List Box View Model/Multicolumn List Box View Model.lvclass"/>
 		</Item>
 		<Item Name="Views" Type="Folder">
+			<Item Name="Control View.lvclass" Type="LVClass" URL="../Control View/Control View.lvclass"/>
 			<Item Name="Variant View.lvclass" Type="LVClass" URL="../Variant View/Variant View.lvclass"/>
 			<Item Name="List Box View.lvclass" Type="LVClass" URL="../List View/List Box View.lvclass"/>
 			<Item Name="Multicolumn List Box View.lvclass" Type="LVClass" URL="../Multicolumn List Box View/Multicolumn List Box View.lvclass"/>
@@ -56,6 +57,7 @@
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="Test Process.lvclass" Type="LVClass" URL="../../test/Test Process/Test Process.lvclass"/>
 		<Item Name="Test Process Test.lvclass" Type="LVClass" URL="../../test/Test Process Test/Test Process Test.lvclass"/>
+		<Item Name="Tree Helpers.lvlib" Type="Library" URL="../Tree Helpers/Tree Helpers.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -93,6 +95,8 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
+				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
