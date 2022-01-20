@@ -34,6 +34,9 @@
 			<Item Name="Filter by Process.lvclass" Type="LVClass" URL="../Filter by Process/Filter by Process.lvclass"/>
 			<Item Name="Filter by Message.lvclass" Type="LVClass" URL="../Filter by Message/Filter by Message.lvclass"/>
 			<Item Name="Mock Filter.lvclass" Type="LVClass" URL="../Mock Filter/Mock Filter.lvclass"/>
+			<Item Name="Filter by Is Action.lvclass" Type="LVClass" URL="../Filter by is Action/Filter by Is Action.lvclass"/>
+			<Item Name="Filter by Is Response.lvclass" Type="LVClass" URL="../Filter by Is Response/Filter by Is Response.lvclass"/>
+			<Item Name="Filter by Is Request.lvclass" Type="LVClass" URL="../Filter by Is Request/Filter by Is Request.lvclass"/>
 			<Item Name="Filter by Is Send.lvclass" Type="LVClass" URL="../Filter by Is Sender/Filter by Is Send.lvclass"/>
 			<Item Name="Filter by Is Receive.lvclass" Type="LVClass" URL="../Filter by Is Receive/Filter by Is Receive.lvclass"/>
 		</Item>
@@ -96,10 +99,10 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
