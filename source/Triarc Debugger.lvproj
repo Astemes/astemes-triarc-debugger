@@ -52,12 +52,12 @@
 			<Item Name="Variant View.lvclass" Type="LVClass" URL="../Variant View/Variant View.lvclass"/>
 			<Item Name="List Box View.lvclass" Type="LVClass" URL="../List View/List Box View.lvclass"/>
 			<Item Name="Multicolumn List Box View.lvclass" Type="LVClass" URL="../Multicolumn List Box View/Multicolumn List Box View.lvclass"/>
+			<Item Name="Messages Composite View.lvclass" Type="LVClass" URL="../Messages Composite View/Messages Composite View.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Debugger Test.lvclass" Type="LVClass" URL="../../test/Debugger Test/Debugger Test.lvclass"/>
 			<Item Name="Debug Message Receiver Test.lvclass" Type="LVClass" URL="../../test/Debug Message Receiver Test/Debug Message Receiver Test.lvclass"/>
 			<Item Name="Debug Log Test.lvclass" Type="LVClass" URL="../../test/Debug Log Test/Debug Log Test.lvclass"/>
-			<Item Name="Generate Test Data.vi" Type="VI" URL="../../test/Generate Test Data.vi"/>
 		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="Test Process.lvclass" Type="LVClass" URL="../../test/Test Process/Test Process.lvclass"/>
