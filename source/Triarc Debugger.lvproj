@@ -55,6 +55,7 @@
 			<Item Name="Messages Composite View.lvclass" Type="LVClass" URL="../Messages Composite View/Messages Composite View.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Debug Data Test.lvclass" Type="LVClass" URL="../../test/Debug Data Test/Debug Data Test.lvclass"/>
 			<Item Name="Debugger Test.lvclass" Type="LVClass" URL="../../test/Debugger Test/Debugger Test.lvclass"/>
 			<Item Name="Debug Message Receiver Test.lvclass" Type="LVClass" URL="../../test/Debug Message Receiver Test/Debug Message Receiver Test.lvclass"/>
 			<Item Name="Debug Log Test.lvclass" Type="LVClass" URL="../../test/Debug Log Test/Debug Log Test.lvclass"/>
@@ -104,6 +105,7 @@
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
+				<Item Name="MDDoc_GraphBuilder.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/Antidoc MD Renderer/support/MDDoc_GraphBuilder.lvlib"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
