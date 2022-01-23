@@ -56,6 +56,7 @@
 			<Item Name="Messages Composite View.lvclass" Type="LVClass" URL="../Messages Composite View/Messages Composite View.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Debug State Analyzer Test.lvclass" Type="LVClass" URL="../../test/Debug State Analyzer Test/Debug State Analyzer Test.lvclass"/>
 			<Item Name="Debug Data Test.lvclass" Type="LVClass" URL="../../test/Debug Data Test/Debug Data Test.lvclass"/>
 			<Item Name="Debugger Test.lvclass" Type="LVClass" URL="../../test/Debugger Test/Debugger Test.lvclass"/>
 			<Item Name="Debug Message Receiver Test.lvclass" Type="LVClass" URL="../../test/Debug Message Receiver Test/Debug Message Receiver Test.lvclass"/>
