@@ -28,6 +28,7 @@
 			<Item Name="Debugger.lvclass" Type="LVClass" URL="../Debugger/Debugger.lvclass"/>
 			<Item Name="Debug Log.lvclass" Type="LVClass" URL="../Debug Log/Debug Log.lvclass"/>
 			<Item Name="Main.lvclass" Type="LVClass" URL="../Main/Main.lvclass"/>
+			<Item Name="Debug State Analyzer.lvclass" Type="LVClass" URL="../State Analyzer/Debug State Analyzer.lvclass"/>
 		</Item>
 		<Item Name="Filter" Type="Folder">
 			<Item Name="Filter.lvclass" Type="LVClass" URL="../Filter/Filter.lvclass"/>
