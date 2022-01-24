@@ -24,11 +24,10 @@
 			<Item Name="Debug Message Receiver.lvclass" Type="LVClass" URL="../Debug Message Receiver/Debug Message Receiver.lvclass"/>
 			<Item Name="Mock Data Listener.lvclass" Type="LVClass" URL="../Mock Data Listener/Mock Data Listener.lvclass"/>
 		</Item>
-		<Item Name="Main" Type="Folder">
-			<Item Name="Debugger.lvclass" Type="LVClass" URL="../Debugger/Debugger.lvclass"/>
+		<Item Name="Debugger Core" Type="Folder">
 			<Item Name="Debug Log.lvclass" Type="LVClass" URL="../Debug Log/Debug Log.lvclass"/>
-			<Item Name="Main.lvclass" Type="LVClass" URL="../Main/Main.lvclass"/>
 			<Item Name="Debug State Analyzer.lvclass" Type="LVClass" URL="../State Analyzer/Debug State Analyzer.lvclass"/>
+			<Item Name="Debugger.lvclass" Type="LVClass" URL="../Debugger/Debugger.lvclass"/>
 		</Item>
 		<Item Name="Filter" Type="Folder">
 			<Item Name="Filter.lvclass" Type="LVClass" URL="../Filter/Filter.lvclass"/>
@@ -47,10 +46,12 @@
 			<Item Name="List Processes View Model.lvclass" Type="LVClass" URL="../List Seen Processes View Model/List Processes View Model.lvclass"/>
 			<Item Name="List Box View Model.lvclass" Type="LVClass" URL="../List Box View Model_/List Box View Model.lvclass"/>
 			<Item Name="Multicolumn List Box View Model.lvclass" Type="LVClass" URL="../Multicolumn List Box View Model/Multicolumn List Box View Model.lvclass"/>
+			<Item Name="Process Tree View Model.lvclass" Type="LVClass" URL="../Process Tree View Model/Process Tree View Model.lvclass"/>
 		</Item>
 		<Item Name="Views" Type="Folder">
 			<Item Name="Control View.lvclass" Type="LVClass" URL="../Control View/Control View.lvclass"/>
 			<Item Name="Variant View.lvclass" Type="LVClass" URL="../Variant View/Variant View.lvclass"/>
+			<Item Name="Process Tree View.lvclass" Type="LVClass" URL="../Process Tree View/Process Tree View.lvclass"/>
 			<Item Name="List Box View.lvclass" Type="LVClass" URL="../List View/List Box View.lvclass"/>
 			<Item Name="Multicolumn List Box View.lvclass" Type="LVClass" URL="../Multicolumn List Box View/Multicolumn List Box View.lvclass"/>
 			<Item Name="Messages Composite View.lvclass" Type="LVClass" URL="../Messages Composite View/Messages Composite View.lvclass"/>
@@ -62,6 +63,7 @@
 			<Item Name="Debug Message Receiver Test.lvclass" Type="LVClass" URL="../../test/Debug Message Receiver Test/Debug Message Receiver Test.lvclass"/>
 			<Item Name="Debug Log Test.lvclass" Type="LVClass" URL="../../test/Debug Log Test/Debug Log Test.lvclass"/>
 		</Item>
+		<Item Name="Main.lvclass" Type="LVClass" URL="../Main/Main.lvclass"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="Test Process.lvclass" Type="LVClass" URL="../../test/Test Process/Test Process.lvclass"/>
 		<Item Name="Test Process Test.lvclass" Type="LVClass" URL="../../test/Test Process Test/Test Process Test.lvclass"/>
