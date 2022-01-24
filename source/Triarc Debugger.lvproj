@@ -19,15 +19,16 @@
 			<Item Name="Debug View.lvclass" Type="LVClass" URL="../Debug View/Debug View.lvclass"/>
 		</Item>
 		<Item Name="Debug Data Receiver" Type="Folder">
-			<Item Name="Debug Data.lvclass" Type="LVClass" URL="../Debug Data/Debug Data.lvclass"/>
 			<Item Name="Debug Data Listener.lvclass" Type="LVClass" URL="../Debug Data Event/Debug Data Listener.lvclass"/>
 			<Item Name="Debug Message Receiver.lvclass" Type="LVClass" URL="../Debug Message Receiver/Debug Message Receiver.lvclass"/>
 			<Item Name="Mock Data Listener.lvclass" Type="LVClass" URL="../Mock Data Listener/Mock Data Listener.lvclass"/>
 		</Item>
 		<Item Name="Debugger Core" Type="Folder">
+			<Item Name="Debug Data.lvclass" Type="LVClass" URL="../Debug Data/Debug Data.lvclass"/>
 			<Item Name="Debug Log.lvclass" Type="LVClass" URL="../Debug Log/Debug Log.lvclass"/>
 			<Item Name="Debug State Analyzer.lvclass" Type="LVClass" URL="../State Analyzer/Debug State Analyzer.lvclass"/>
 			<Item Name="Debugger.lvclass" Type="LVClass" URL="../Debugger/Debugger.lvclass"/>
+			<Item Name="Debug Latest Message.lvclass" Type="LVClass" URL="../Debug Latest Message/Debug Latest Message.lvclass"/>
 		</Item>
 		<Item Name="Filter" Type="Folder">
 			<Item Name="Filter.lvclass" Type="LVClass" URL="../Filter/Filter.lvclass"/>
@@ -58,6 +59,7 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Debug State Analyzer Test.lvclass" Type="LVClass" URL="../../test/Debug State Analyzer Test/Debug State Analyzer Test.lvclass"/>
+			<Item Name="Debug Latest Message Test.lvclass" Type="LVClass" URL="../../test/Debug Latest Message Test/Debug Latest Message Test.lvclass"/>
 			<Item Name="Debug Data Test.lvclass" Type="LVClass" URL="../../test/Debug Data Test/Debug Data Test.lvclass"/>
 			<Item Name="Debugger Test.lvclass" Type="LVClass" URL="../../test/Debugger Test/Debugger Test.lvclass"/>
 			<Item Name="Debug Message Receiver Test.lvclass" Type="LVClass" URL="../../test/Debug Message Receiver Test/Debug Message Receiver Test.lvclass"/>
