@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
-	<Property Name="CCSymbols" Type="Str">DEBUG,TRUE;Test,HEj;</Property>
+	<Property Name="CCSymbols" Type="Str">,;DEBUG,TRUE;Test,HEj</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -64,6 +64,7 @@
 			<Item Name="Debugger Test.lvclass" Type="LVClass" URL="../../test/Debugger Test/Debugger Test.lvclass"/>
 			<Item Name="Debug Message Receiver Test.lvclass" Type="LVClass" URL="../../test/Debug Message Receiver Test/Debug Message Receiver Test.lvclass"/>
 			<Item Name="Debug Log Test.lvclass" Type="LVClass" URL="../../test/Debug Log Test/Debug Log Test.lvclass"/>
+			<Item Name="Conditional Disabled Configurator Test.lvclass" Type="LVClass" URL="../../test/Conditional Disabled Configurator Test/Conditional Disabled Configurator Test.lvclass"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Conditional Disabled Configurator.lvclass" Type="LVClass" URL="../Conditional Disabled Configurator/Conditional Disabled Configurator.lvclass"/>
@@ -73,8 +74,6 @@
 		<Item Name="Test Process.lvclass" Type="LVClass" URL="../../test/Test Process/Test Process.lvclass"/>
 		<Item Name="Test Process Test.lvclass" Type="LVClass" URL="../../test/Test Process Test/Test Process Test.lvclass"/>
 		<Item Name="Tree Helpers.lvlib" Type="Library" URL="../Tree Helpers/Tree Helpers.lvlib"/>
-		<Item Name="Untitled 22.vi" Type="VI" URL="../../../../../Desktop/Untitled 22.vi"/>
-		<Item Name="Conditional Disabled Configurator Test.lvclass" Type="LVClass" URL="../../test/Conditional Disabled Configurator Test/Conditional Disabled Configurator Test.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
