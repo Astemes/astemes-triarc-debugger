@@ -58,6 +58,7 @@
 			<Item Name="Messages Composite View.lvclass" Type="LVClass" URL="../Messages Composite View/Messages Composite View.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Test Process.lvclass" Type="LVClass" URL="../../test/Test Process/Test Process.lvclass"/>
 			<Item Name="Debug State Analyzer Test.lvclass" Type="LVClass" URL="../../test/Debug State Analyzer Test/Debug State Analyzer Test.lvclass"/>
 			<Item Name="Debug Latest Message Test.lvclass" Type="LVClass" URL="../../test/Debug Latest Message Test/Debug Latest Message Test.lvclass"/>
 			<Item Name="Debug Data Test.lvclass" Type="LVClass" URL="../../test/Debug Data Test/Debug Data Test.lvclass"/>
@@ -71,7 +72,6 @@
 		</Item>
 		<Item Name="Main.lvclass" Type="LVClass" URL="../Main/Main.lvclass"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
-		<Item Name="Test Process.lvclass" Type="LVClass" URL="../../test/Test Process/Test Process.lvclass"/>
 		<Item Name="Test Process Test.lvclass" Type="LVClass" URL="../../test/Test Process Test/Test Process Test.lvclass"/>
 		<Item Name="Tree Helpers.lvlib" Type="Library" URL="../Tree Helpers/Tree Helpers.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
