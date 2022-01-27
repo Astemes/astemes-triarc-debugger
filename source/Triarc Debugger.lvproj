@@ -29,6 +29,7 @@
 			<Item Name="Debug Log.lvclass" Type="LVClass" URL="../Debug Log/Debug Log.lvclass"/>
 			<Item Name="Debug State Analyzer.lvclass" Type="LVClass" URL="../State Analyzer/Debug State Analyzer.lvclass"/>
 			<Item Name="Debug Latest Message.lvclass" Type="LVClass" URL="../Debug Latest Message/Debug Latest Message.lvclass"/>
+			<Item Name="Debug Latest Broadcast.lvclass" Type="LVClass" URL="../Debug Latest Broadcast/Debug Latest Broadcast.lvclass"/>
 			<Item Name="Debugger.lvclass" Type="LVClass" URL="../Debugger/Debugger.lvclass"/>
 		</Item>
 		<Item Name="Filter" Type="Folder">
@@ -63,6 +64,7 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test Process.lvclass" Type="LVClass" URL="../../test/Test Process/Test Process.lvclass"/>
 			<Item Name="Debug State Analyzer Test.lvclass" Type="LVClass" URL="../../test/Debug State Analyzer Test/Debug State Analyzer Test.lvclass"/>
+			<Item Name="Attach Debugger.lvclass" Type="LVClass" URL="../../test/Test Attach Debugger/Attach Debugger.lvclass"/>
 			<Item Name="Debug Latest Message Test.lvclass" Type="LVClass" URL="../../test/Debug Latest Message Test/Debug Latest Message Test.lvclass"/>
 			<Item Name="Debug Data Test.lvclass" Type="LVClass" URL="../../test/Debug Data Test/Debug Data Test.lvclass"/>
 			<Item Name="Debugger Test.lvclass" Type="LVClass" URL="../../test/Debugger Test/Debugger Test.lvclass"/>
@@ -76,6 +78,7 @@
 		</Item>
 		<Item Name="Main.lvclass" Type="LVClass" URL="../Main/Main.lvclass"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
+		<Item Name="Attach Debugger.vi" Type="VI" URL="../Main/Attach Debugger.vi"/>
 		<Item Name="Test Process Test.lvclass" Type="LVClass" URL="../../test/Test Process Test/Test Process Test.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
