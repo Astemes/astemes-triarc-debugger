@@ -78,7 +78,7 @@
 		</Item>
 		<Item Name="Main.lvclass" Type="LVClass" URL="../Main/Main.lvclass"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
-		<Item Name="Attach Debugger.vi" Type="VI" URL="../Main/Attach Debugger.vi"/>
+		<Item Name="Attach Debugger.vi" Type="VI" URL="../Attach Debugger.vi"/>
 		<Item Name="Test Process Test.lvclass" Type="LVClass" URL="../../test/Test Process Test/Test Process Test.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -157,6 +157,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Get number of Calls.vi" Type="VI" URL="../Mock Filter/Get number of Calls.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Triarc Debugger" Type="Source Distribution">
@@ -178,7 +179,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3A4BA03D-CBAC-4DF1-A1C7-689E93BEEE3D}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/vi.lib/Astemes/Triarc Debugger</Property>
@@ -188,7 +189,7 @@
 				<Property Name="Destination[2].destName" Type="Str">Tools Menu</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/project/Triarc</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7E1380BF-AE3C-4565-9112-3AB03C8420FF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{314776F1-4E54-4CC2-B1BB-E4B56F4BC50C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher.vi</Property>
@@ -209,7 +210,11 @@
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Tests</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Attach Debugger.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 		</Item>
 	</Item>
