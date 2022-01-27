@@ -20,6 +20,7 @@
 		</Item>
 		<Item Name="Debug Data Receiver" Type="Folder">
 			<Item Name="Debug Data Listener.lvclass" Type="LVClass" URL="../Debug Data Event/Debug Data Listener.lvclass"/>
+			<Item Name="Broadcast Message Receiver.lvclass" Type="LVClass" URL="../Broadcast Message Receiver/Broadcast Message Receiver.lvclass"/>
 			<Item Name="Debug Message Receiver.lvclass" Type="LVClass" URL="../Debug Message Receiver/Debug Message Receiver.lvclass"/>
 			<Item Name="Mock Data Listener.lvclass" Type="LVClass" URL="../Mock Data Listener/Mock Data Listener.lvclass"/>
 		</Item>
@@ -38,6 +39,7 @@
 			<Item Name="Filter by Is Action.lvclass" Type="LVClass" URL="../Filter by is Action/Filter by Is Action.lvclass"/>
 			<Item Name="Filter by Is Response.lvclass" Type="LVClass" URL="../Filter by Is Response/Filter by Is Response.lvclass"/>
 			<Item Name="Filter by Is Request.lvclass" Type="LVClass" URL="../Filter by Is Request/Filter by Is Request.lvclass"/>
+			<Item Name="Filter by Is Broadcast.lvclass" Type="LVClass" URL="../Filter by Is Broadcast/Filter by Is Broadcast.lvclass"/>
 			<Item Name="Filter by Is Send.lvclass" Type="LVClass" URL="../Filter by Is Sender/Filter by Is Send.lvclass"/>
 			<Item Name="Filter by Is Receive.lvclass" Type="LVClass" URL="../Filter by Is Receive/Filter by Is Receive.lvclass"/>
 		</Item>
