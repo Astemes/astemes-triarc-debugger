@@ -189,13 +189,58 @@
 				<Property Name="Destination[2].destName" Type="Str">Tools Menu</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/project/Triarc</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{314776F1-4E54-4CC2-B1BB-E4B56F4BC50C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{426FB46A-55FD-46FC-BA1B-EEA6EEBE8104}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher.vi</Property>
 				<Property Name="Source[1].newName" Type="Str">Debugger.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[10].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Debug Data Receiver</Property>
+				<Property Name="Source[10].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[10].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[10].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[10].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[10].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[10].type" Type="Str">Container</Property>
+				<Property Name="Source[11].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Debugger Core</Property>
+				<Property Name="Source[11].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[11].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[11].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[11].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[11].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[11].type" Type="Str">Container</Property>
+				<Property Name="Source[12].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[12].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Filter</Property>
+				<Property Name="Source[12].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[12].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[12].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[12].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[12].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[12].type" Type="Str">Container</Property>
+				<Property Name="Source[13].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[13].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/View Models</Property>
+				<Property Name="Source[13].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[13].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[13].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[13].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[13].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[13].type" Type="Str">Container</Property>
+				<Property Name="Source[14].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[14].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Utilities</Property>
+				<Property Name="Source[14].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[14].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[14].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[14].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[14].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[14].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Main.lvclass</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -214,7 +259,41 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Attach Debugger.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Main.lvclass/Private</Property>
+				<Property Name="Source[6].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[6].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[6].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Main.lvclass/Main.vi</Property>
+				<Property Name="Source[7].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[7].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[7].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[8].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Framework</Property>
+				<Property Name="Source[8].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[8].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[8].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[8].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[8].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[8].type" Type="Str">Container</Property>
+				<Property Name="Source[9].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Views</Property>
+				<Property Name="Source[9].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[9].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[9].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[9].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[9].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">15</Property>
 			</Item>
 		</Item>
 	</Item>
