@@ -75,12 +75,15 @@
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Conditional Disabled Configurator.lvclass" Type="LVClass" URL="../Conditional Disabled Configurator/Conditional Disabled Configurator.lvclass"/>
 			<Item Name="Tree Helpers.lvlib" Type="Library" URL="../Tree Helpers/Tree Helpers.lvlib"/>
+			<Item Name="Spinner.lvlib" Type="Library" URL="../Spinner/Spinner.lvlib"/>
 		</Item>
 		<Item Name="Main.lvclass" Type="LVClass" URL="../Main/Main.lvclass"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
+		<Item Name="Rotate Vector.vi" Type="VI" URL="../Spinner/Rotate Vector.vi"/>
 		<Item Name="Attach Debugger.vi" Type="VI" URL="../Attach Debugger.vi"/>
 		<Item Name="Test Process Test.lvclass" Type="LVClass" URL="../../test/Test Process Test/Test Process Test.lvclass"/>
 		<Item Name="Processes List View Model Test.lvclass" Type="LVClass" URL="../../test/Processes List View Model Test/Processes List View Model Test.lvclass"/>
+		<Item Name="Splash Screen.lvlib" Type="Library" URL="../../../astemes-triarc/source/Support/Splash Screen/Splash Screen.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -158,6 +161,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Rotate Vector.vi" Type="VI" URL="../../../astemes-triarc/source/Support/Splash Screen/Rotate Vector.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Triarc Debugger" Type="Source Distribution">
