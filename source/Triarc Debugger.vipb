@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-29 20:20:49" Modified_Date="2022-02-12 15:50:34" Creator="Anton Sundqvist" Comments="" ID="01597263e4634c5354f860c9730aedb6">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-29 20:20:49" Modified_Date="2022-03-06 20:36:37" Creator="Anton Sundqvist" Comments="" ID="775b5c7d3917134fd723db66d2aa56f9">
   <Library_General_Settings>
     <Package_File_Name>Astemes_lib_Triarc_Debugger</Package_File_Name>
-    <Library_Version>1.0.0.23</Library_Version>
+    <Library_Version>1.0.0.24</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\Triarc Debugger</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VI Packages</Library_Output_Folder>
@@ -232,7 +232,7 @@
         <Path>..\builds\Triarc Debugger\vi.lib\Astemes\Triarc Debugger\Attach Debugger.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4AEC828F455C73B339755C5FFB6BA832</GUID>
+      <GUID>6A73BA24D68F6685543FBE19521E04FA</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -267,7 +267,7 @@
         <Path>..\builds\Triarc Debugger\vi.lib</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>74B4C84DAE4A93A6DD223B9D6FCE338A</GUID>
+      <GUID>B5C20B6689363C3BF50D159AE5B1A04C</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -302,7 +302,7 @@
         <Path>..\builds\Triarc Debugger\vi.lib\Astemes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D526B3DBE260704599FB286572A064C</GUID>
+      <GUID>8681561F3C7CC32D154301A75BB8CD14</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -337,7 +337,7 @@
         <Path>..\builds\Triarc Debugger\vi.lib\Astemes\Triarc Debugger</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1D7C996B4075926A24BCF521E3967361</GUID>
+      <GUID>A53459541CA696720C210C233C6C0A39</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -358,7 +358,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>vi.lib\Astemes\Triarc Debugger</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>CF54C16012FEF070646CD873052D18B6</GUID>
+      <GUID>3A0663B299CCED4E5BEF005B424618AA</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
