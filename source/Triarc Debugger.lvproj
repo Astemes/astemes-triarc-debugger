@@ -183,7 +183,7 @@
 				<Property Name="Destination[2].destName" Type="Str">Tools Menu</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/project/Triarc</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{40F0985C-C09E-4249-A9CD-19B4E821BBB6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5119B3C5-27C9-4C31-B2AF-74E1D943CE2C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher.vi</Property>
@@ -239,6 +239,9 @@
 				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Utilities/Spinner.lvlib</Property>
 				<Property Name="Source[15].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[15].type" Type="Str">Library</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Utilities/Spinner.lvlib/Rotate Vector.vi</Property>
+				<Property Name="Source[16].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Main.lvclass</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -291,7 +294,7 @@
 				<Property Name="Source[9].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[9].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">16</Property>
+				<Property Name="SourceCount" Type="Int">17</Property>
 			</Item>
 		</Item>
 	</Item>
