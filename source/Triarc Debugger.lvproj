@@ -183,7 +183,7 @@
 				<Property Name="Destination[2].destName" Type="Str">Tools Menu</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/project/Triarc</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5119B3C5-27C9-4C31-B2AF-74E1D943CE2C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D20DFD36-1DF5-4596-B01C-C1ACA22C0B8E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher.vi</Property>
