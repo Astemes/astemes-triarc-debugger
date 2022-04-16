@@ -1,5 +1,7 @@
 pipeline {
-	agent any
+	agent {
+        label 'LV2020'
+    }
 	environment{
 		PROJECT_TITLE = "Astemes Triarc Debugger"
 		REPO_URL = "https://github.com/Astemes/triarc-debugger"
@@ -9,12 +11,12 @@ pipeline {
 		LV_BUILD_SPEC = "Triarc Debugger"
 		LV_VIPB_PATH = "source\\Triarc Debugger.vipb"
 		LV_VERSION = "20.0"
-		COMMIT_TAG = "${bat(returnStdout: true, script: '@git fetch & git tag --contains').trim()}"
 	}
 	stages {
 		stage('Initialize') {
 			steps {
 				library 'astemes-build-support'
+				script{COMMIT_TAG = gitTag()}
 				killLv()
 				initWorkspace()
 				dir("build_support"){
@@ -33,7 +35,6 @@ pipeline {
 			steps {
 				//Execute LabVIEW build spec
 				buildLVBuildSpec "${LV_PROJECT_PATH}", "${LV_BUILD_SPEC}"
-								
 				//Build mkdocs documentation
 				buildDocs "${PROJECT_TITLE}", "${REPO_URL}", "${AUTHOR}", "${INITIAL_RELEASE}"
 			}
@@ -41,7 +42,7 @@ pipeline {
 		stage('Deploy') {
 			when{
 				expression{
-					env.COMMIT_TAG != null
+					!COMMIT_TAG.isEmpty()
 				}
 			}
 			environment{
@@ -56,6 +57,10 @@ pipeline {
 		}
 	}
 	post{
+        always { 
+			killLv()
+            cleanWs(notFailBuild: true)
+		}
 		regression{
 			sendMail "anton.sundqvist@astemes.com"
 		}
